@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T02:17:30.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="peaG22P6NywV4Z3MJy37" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T02:24:39.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qPsjHZoxp_V2u--Z6Frx" version="23.1.6" type="github">
   <diagram name="Page-1" id="2yBuE_7bHHZLBpGXVRLE">
-    <mxGraphModel dx="1343" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1672" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,15 @@
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-16" value="+ getVin(): int&lt;div&gt;+ getMake():String&lt;/div&gt;&lt;div&gt;+ getModel(): String&lt;/div&gt;&lt;div&gt;+ getCarType(): carType&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-13">
           <mxGeometry y="98" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-19" value="«enum»&lt;br&gt;&lt;b&gt;CarType&lt;br&gt;Sedan&lt;br&gt;SportsCar&lt;br&gt;StationWagon&lt;br&gt;SUV&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="310" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-20" value="«enum»&lt;br&gt;&lt;b&gt;TractorType&lt;br&gt;&lt;/b&gt;Subcompact&lt;br&gt;Compact&lt;br&gt;Standard" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="100" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-21" value="«enum»&lt;br&gt;TruckType&lt;br&gt;Standard&lt;br&gt;Extended&lt;br&gt;Crew" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="200" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

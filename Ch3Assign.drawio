@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T23:20:04.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.6" etag="AmxAPLuzq1VR_RYzqXhB" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T02:17:30.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="peaG22P6NywV4Z3MJy37" version="23.1.6" type="github">
   <diagram name="Page-1" id="2yBuE_7bHHZLBpGXVRLE">
-    <mxGraphModel>
+    <mxGraphModel dx="1343" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-1" value="Tractor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="300" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-2" value="+vin:int&lt;br&gt;+make:String&lt;br&gt;+model:String&lt;br&gt;+tractorType:TractorType&lt;br&gt;+fourWheelDrive:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-1">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-1">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-4" value="+ getVin():int&lt;br&gt;+getMake():String&lt;br&gt;+getModel():String&lt;br&gt;+getTractorType():TractorType&lt;br&gt;+isFourWheelDrive():boolean&lt;br&gt;+toString():String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-1">
+          <mxGeometry y="118" width="160" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-5" value="Truck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="20" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-6" value="+ vin:int&lt;br&gt;+bedLength:short&lt;br&gt;+make:String&lt;br&gt;+model:String&lt;br&gt;+truckType:TruckType&lt;br&gt;+fourWheelDrive:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-5">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-5">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-8" value="+getVin():int&lt;br&gt;+getMake():String&lt;br&gt;+getModel():String&lt;br&gt;+getBedLength():short&lt;div&gt;+isFourWheelDrive():boolean&lt;/div&gt;&lt;div&gt;+getTruckType():TruckType&lt;/div&gt;&lt;div&gt;+toString():String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-5">
+          <mxGeometry y="138" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-9" value="FleetManagment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="160" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-10" value="cars:Set&amp;lt;Car&amp;gt;&lt;br&gt;trucks:Set&amp;lt;Truck&amp;gt;&lt;br&gt;tractors:Set&amp;lt;Tractor&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-9">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-9">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-12" value="+ addCar(Car):void&lt;br&gt;+addTruck(Truck):void&lt;br&gt;+addTractor(Tractor):void&lt;br&gt;+removeCar(Car):void&lt;br&gt;+removeTruck(Truck):void&lt;br&gt;+removeTractor(Tractor):void&lt;br&gt;+allVehiclesReport():String&lt;br&gt;+allCarsReport():String&lt;br&gt;+allTrucksReport():String&lt;br&gt;+allTractorsReport():String&lt;br&gt;+getCars():Set&amp;lt;Car&amp;gt;&lt;br&gt;+getTrucks():Set&amp;lt;Truck&amp;gt;&lt;br&gt;+getTractors():Set&amp;lt;Tractor&amp;gt;&lt;br&gt;+getCarByVin(int):Car&lt;br&gt;+getTruckByVin(int):Truck&lt;br&gt;+getTractorByVin(int):Tractor&lt;div&gt;+getCarsByMake(String):Set&amp;lt;Truck&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getTrucksByMake(String):Set&amp;lt;Truck&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getTractorsByMake(String):Set&amp;lt;Tractor&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getCarsByModel(String):Set&amp;lt;Car&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getTrucksByModel(String):Set&amp;lt;Truck&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getTractorByModel(String):Set&amp;lt;Tractor&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getCarsByType(CarType):Set&amp;lt;Car&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getTruckByType(TruckType):Set&amp;lt;Truck&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getTractorsByType(TractorType):Set&amp;lt;Tractor&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+toString():String&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-9">
+          <mxGeometry y="88" width="160" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-13" value="Car" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="100" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-14" value="+ vin:int&lt;br&gt;+ make:String&lt;br&gt;+ model:String&lt;br&gt;+ carType: carType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-13">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-13">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-16" value="+ getVin(): int&lt;div&gt;+ getMake():String&lt;/div&gt;&lt;div&gt;+ getModel(): String&lt;/div&gt;&lt;div&gt;+ getCarType(): carType&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-13">
+          <mxGeometry y="98" width="160" height="82" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

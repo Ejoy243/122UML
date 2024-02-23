@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-23T02:24:39.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qPsjHZoxp_V2u--Z6Frx" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T04:02:24.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Uu3-MswJQxpO9GzMqRcs" version="23.1.6" type="github">
   <diagram name="Page-1" id="2yBuE_7bHHZLBpGXVRLE">
-    <mxGraphModel dx="1672" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1507" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-1" value="Tractor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="300" width="160" height="260" as="geometry" />
+          <mxGeometry x="140" y="340" width="160" height="260" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-2" value="+vin:int&lt;br&gt;+make:String&lt;br&gt;+model:String&lt;br&gt;+tractorType:TractorType&lt;br&gt;+fourWheelDrive:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-1">
           <mxGeometry y="26" width="160" height="84" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="118" width="160" height="142" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-5" value="Truck" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="20" width="160" height="250" as="geometry" />
+          <mxGeometry x="140" y="630" width="160" height="250" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-6" value="+ vin:int&lt;br&gt;+bedLength:short&lt;br&gt;+make:String&lt;br&gt;+model:String&lt;br&gt;+truckType:TruckType&lt;br&gt;+fourWheelDrive:boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-5">
           <mxGeometry y="26" width="160" height="104" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="138" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-9" value="FleetManagment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="160" height="490" as="geometry" />
+          <mxGeometry x="430" y="260" width="160" height="490" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-10" value="cars:Set&amp;lt;Car&amp;gt;&lt;br&gt;trucks:Set&amp;lt;Truck&amp;gt;&lt;br&gt;tractors:Set&amp;lt;Tractor&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-9">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="88" width="160" height="402" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-13" value="Car" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="100" width="160" height="180" as="geometry" />
+          <mxGeometry x="140" y="120" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-14" value="+ vin:int&lt;br&gt;+ make:String&lt;br&gt;+ model:String&lt;br&gt;+ carType: carType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-13">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
@@ -52,14 +52,76 @@
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-16" value="+ getVin(): int&lt;div&gt;+ getMake():String&lt;/div&gt;&lt;div&gt;+ getModel(): String&lt;/div&gt;&lt;div&gt;+ getCarType(): carType&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-13">
           <mxGeometry y="98" width="160" height="82" as="geometry" />
         </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-19" target="fVFEEhRv6d_vcLKSIuVx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-19" value="«enum»&lt;br&gt;&lt;b&gt;CarType&lt;br&gt;Sedan&lt;br&gt;SportsCar&lt;br&gt;StationWagon&lt;br&gt;SUV&lt;br&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="310" width="110" height="90" as="geometry" />
+          <mxGeometry x="-20" y="140" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-20" target="fVFEEhRv6d_vcLKSIuVx-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-20" value="«enum»&lt;br&gt;&lt;b&gt;TractorType&lt;br&gt;&lt;/b&gt;Subcompact&lt;br&gt;Compact&lt;br&gt;Standard" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="100" width="110" height="80" as="geometry" />
+          <mxGeometry x="-20" y="390" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fVFEEhRv6d_vcLKSIuVx-21" value="«enum»&lt;br&gt;TruckType&lt;br&gt;Standard&lt;br&gt;Extended&lt;br&gt;Crew" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="200" width="110" height="90" as="geometry" />
+          <mxGeometry x="-20" y="710" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-16" target="fVFEEhRv6d_vcLKSIuVx-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="320" />
+              <mxPoint x="431" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.244;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-4" target="fVFEEhRv6d_vcLKSIuVx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-6" target="fVFEEhRv6d_vcLKSIuVx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-21" target="fVFEEhRv6d_vcLKSIuVx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Car&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ carType: carType&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCarType(): carType&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="290" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tractor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tractorType: TractorType&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTractorType():TractorType&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="330" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Truck&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ bedLength:short&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+truckType: TruckType&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getBedLength():short&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getTruckType():TruckType&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="290" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-49" target="fVFEEhRv6d_vcLKSIuVx-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-49" target="fVFEEhRv6d_vcLKSIuVx-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-49" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Vehicle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ vin:int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+make:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+model:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+fourWheelDrive:boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getVin(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getMake():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getModel():&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="70" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-49" target="fVFEEhRv6d_vcLKSIuVx-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-51" value="FleetManagement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="100" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-52" value="+vehicles:Set&amp;lt;Vehicle&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-51">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-51">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-54" value="addVehicle(Vehicle):void&lt;br&gt;removeVehicle(Vehicle):void&lt;br&gt;allVehiclesReport():String&lt;br&gt;allCarsReport():String&lt;br&gt;allTrucksReport():String&lt;br&gt;allTractorsReport():String&lt;br&gt;getVehicles():Set&amp;lt;Vehicle&amp;gt;&lt;br&gt;getVehicleByVin(vin):Vehicle&lt;div&gt;getVehicleByMake(String):Vehicle&lt;/div&gt;&lt;div&gt;getVehicleByModel(String):Vehicle&lt;/div&gt;&lt;div&gt;getVehicelByType(Vehicle):Vehicle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fVFEEhRv6d_vcLKSIuVx-51">
+          <mxGeometry y="60" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-49" target="fVFEEhRv6d_vcLKSIuVx-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fVFEEhRv6d_vcLKSIuVx-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fVFEEhRv6d_vcLKSIuVx-49" target="fVFEEhRv6d_vcLKSIuVx-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
